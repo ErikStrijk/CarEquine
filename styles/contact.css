@@ -1,0 +1,150 @@
+p {
+    font-family: 'Open Sans';
+    color: white;
+}
+.jumbotron{
+	background-image: url('../images/bg-landing.png');
+	background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5vw !important;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}  
+h1 {
+    align-self: center;
+    color: white;
+}
+.page-footer {
+    display: flex !important;
+    height: 10vh !important;
+    color: white;
+    align-items: center;
+    font-family: 'Open Sans', bold;
+    justify-content: center;
+ 
+}
+.row {
+    margin: 0 !important;
+}
+.card {
+    background-color: #34495E;
+    width: 10vw;
+    height: 15vh;
+    min-width: 250px;
+    min-height: 250px;
+    position: none;
+    border-radius: 10%;
+    padding-top: 3vh !important;
+    padding: 0 !important;
+    overflow: hidden;
+}
+.col {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+}
+.bottom {
+    position: absolute;
+    bottom: 0;
+    min-height: 50px;
+    height: 5vh;
+    width: 100%;
+    background-color: #D35400;
+    text-align: center;
+    display: flex !important;
+    color: white;
+    align-content: center;
+    justify-content: center;
+    font-weight: 600;
+    font-family: 'Open Sans', bold;
+    font-size:calc(15px + 1vw);
+    max-height: 40%;
+}
+.circle {
+    min-height: 150px;
+    min-width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', bold;
+    font-weight: 500;
+    font-size:calc(15px + 1vw);
+
+    height: 10vw;
+    width: 10vw;
+    background-color: #D35400;
+    border-radius: 50%;
+    font-family: 'Open Sans';  
+}
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-right: 15vw;
+    padding-left: 15vw;
+    background-color: #34495E;
+    flex-direction: column !important;
+}
+.input-container {
+    margin-top: 2.5vh;
+    align-self: center;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.input-container p {
+    color: #FFD500;
+    font-weight:500;
+    font-family: "Lato";
+    font-size:calc(14px + 0.75vw);
+}
+textarea {
+    font-family: "Lato";
+    padding: 2vh;
+    background-color: #D35400;
+    border: none;
+    color: white;
+    height: 23vh;
+  }
+input {
+    font-family: "Lato";
+    padding: 2vh;
+    background-color: #D35400;
+    border: none;
+    color: white;
+  }
+.contact-information {
+    background-color: #FFFF;
+    width: 100%;
+    padding: 4vh 5vw;
+}
+.contact-information h1 {
+    color: #34495E;
+    font-weight: 700;
+    font-family: "Lato";
+    font-size:calc(30px + 1vw);
+    margin: 0!important;
+}
+.contact-information h3 {
+    display: flex;
+    align-items: center;
+    color: #34495E;
+    font-weight: 700;
+    font-family: "Lato";
+    font-size:calc(20px + 1vw);
+    margin: 0!important;
+}
+.contact-information h2 {
+    margin-left: calc(30px + 1vw * 4.5);
+    color: #D35400;
+    font-weight: 550;
+    font-family: "Lato";
+    font-size:calc(14px + 0.75vw);
+
+}

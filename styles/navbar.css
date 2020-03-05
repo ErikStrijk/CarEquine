@@ -1,0 +1,43 @@
+.bg-darkblue  {
+    background-color: #34495E;
+}
+.text-gold {
+    color: #AE982A !important;
+}
+.text-orange {
+    color: #D35400 !important;
+}
+.navbar .navbar-brand img {
+    height: 90px;
+}
+.navbar {
+    font-family: 'Open Sans', bold;
+    font-weight: 900;
+}
+@media screen and (min-width: 1367px) {
+    .navbar {
+        font-size: 2vw;
+    }
+}
+@media screen and (max-width: 1366px) {
+.navbar {
+    font-size: 3vw;
+}
+}
+@media screen and (max-width: 600px) {
+    .navbar {
+        font-size: 4vw;
+    }
+}
+body { 
+    padding-top: 116px; 
+}
+.page-footer {
+    display: flex !important;
+    height: 10vh !important;
+    color: white;
+    align-items: center;
+    font-family: 'Open Sans', bold;
+    justify-content: center;
+
+}

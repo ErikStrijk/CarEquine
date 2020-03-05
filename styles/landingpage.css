@@ -1,0 +1,84 @@
+p {
+    font-family: 'Open Sans';
+}
+.jumbotron{
+	background-image: url('../images/bg-landing.png');
+	background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 !important;
+    border-radius: 0px;
+}  
+.jumbotron img{
+    margin-bottom: 100px;
+    display:block;
+    height: 30vh;
+    margin-bottom: 10vh;
+    margin-right: 20px;
+    margin-bottom: 10vh;
+}
+.jumbotron div{
+
+    position: relative;
+    bottom: 0;
+    height: 11vh !important;
+    border-top: 0.5vw solid #AE982A;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2vw;
+    padding-right: 1.2vw;
+    padding-left: 1.2vw;
+    align-items: center;
+    font-family: "Lato";
+    font-weight: 700;
+}
+.jumbotron div p{
+    margin: 0;
+}
+#header-gold {
+    color: #AE982A;
+    font-style: "Lato";
+    font-size: 3vw;
+    margin-bottom: 3vh;
+}
+.icon {
+    height: 14vh;
+}
+.page-footer {
+    display: flex !important;
+    height: 10vh !important;
+    color: white;
+    align-items: center;
+    font-family: 'Open Sans', bold;
+    justify-content: center;
+
+}
+.subheader-gold {
+    color: #AE982A;
+    font-size: 2.5vh;
+    margin-bottom: 1.5625;
+    font-family: 'Open Sans', bold;
+    font-weight: 600;
+}
+@media screen and (max-height: 1366px) {
+    .jumbotron img{
+        display:block;
+        height: 20vh;
+    }
+}
+@media screen and (max-height: 824px) {
+    .jumbotron div{
+        height: 8vh;
+        font-size: 2.5vw;
+        border-top: 1.5vw solid #AE982A;
+
+    }
+}
+@media screen and (max-width: 1025px) {
+    #header-gold {
+        font-size: 4vh;
+    }
+    .subheader-gold {
+        font-size: 2.5vh;
+    
+    }
+}
