@@ -32,8 +32,8 @@ h1 {
     background-color: #34495E;
     width: 10vw;
     height: 15vh;
-    min-width: 250px;
-    min-height: 250px;
+    min-width: 295px;
+    min-height: 295px;
     position: none;
     border-radius: 10%;
     padding-top: 3vh !important;
@@ -46,22 +46,31 @@ h1 {
     margin-top: 2.5vh;
     margin-bottom: 2.5vh;
 }
+.btw {
+    height: 20px;
+    text-align: right;
+    font-family: 'Open Sans', bold;
+    margin-right: calc(10px + 0.4vw);
+    margin-bottom: calc(5px + 0.4vh);
+}
+.session {
+    background-color: #D35400;
+    display: flex !important;
+    color: white;
+    min-height: 60px;
+    align-items: center;
+    justify-content: center;    
+    height: 7vh;
+    text-align: center;
+    font-weight: 530;
+    font-family: 'Open Sans', bold;
+    font-size:calc(16px + 0.5vw);
+}
 .bottom {
     position: absolute;
     bottom: 0;
-    min-height: 50px;
-    height: 5vh;
+    margin: 0;
     width: 100%;
-    background-color: #D35400;
-    text-align: center;
-    display: flex !important;
-    color: white;
-    align-content: center;
-    justify-content: center;
-    font-weight: 600;
-    font-family: 'Open Sans', bold;
-    font-size:calc(15px + 1vw);
-    max-height: 40%;
 }
 .circle {
     min-height: 150px;

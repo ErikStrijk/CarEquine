@@ -1,7 +1,6 @@
 p {
     font-family: 'Open Sans';
-}
-.jumbotron{
+}.jumbotron{
 	background-image: url('../images/bg-landing.png');
 	background-size: cover;
     background-repeat: no-repeat;
@@ -16,6 +15,16 @@ p {
     margin-right: 20px;
     margin-bottom: 10vh;
 }
+.jumbotron p img{
+    margin-bottom: 100px;
+    display:block;
+    height: 10vw;
+}
+#check {
+    width: calc(10px + 3vw);
+    margin: 0;
+    display: inline;
+}
 .jumbotron div{
 
     position: relative;
@@ -23,16 +32,19 @@ p {
     height: 11vh !important;
     border-top: 0.5vw solid #AE982A;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    font-size: 2vw;
     padding-right: 1.2vw;
     padding-left: 1.2vw;
     align-items: center;
     font-family: "Lato";
-    font-weight: 700;
+    font-weight: 600;
 }
 .jumbotron div p{
     margin: 0;
+    font-size: calc(8px + 1vw);
+    line-height: 0;
+
 }
 #header-gold {
     color: #AE982A;
