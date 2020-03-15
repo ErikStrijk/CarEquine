@@ -47,7 +47,10 @@
     </header>
 
     <main role="main"> 
-      <div class="jumbotron text-white text-center">
+      <script type="text/javascript">var submitted=false;</script>
+
+      <iframe name="iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='index.html';}"></iframe>
+      <div name="_top" class="jumbotron text-white text-center">
         <h1>tarieven</h1>
 
         <div class="row text-center justify-content-center">
@@ -113,25 +116,25 @@
           </div>
         </div>
       </div>
-      <form class="form">
+      <form class="form" method="POST" target="iframe" onsubmit="alert('Het bericht is verstuurd!'); submitted=true;" action="https://script.google.com/macros/s/AKfycbzguPekZept4t-bJgTDFgSUX58PCmrzloV4msLbdgPX5CG3HJQ/exec">>
         <h1 class="text-center">STUUR EEN BERICHTJE</h1>
         <div class="input-container">
           <p>volledige naam*</p>
-          <input type="text" >
+          <input name="volledige naam" required type="text" >
         </div>
         <br>
         <div class="input-container">
           <p>email adress*</p>
-          <input type="email" >
+          <input name="email" required type="email" >
         </div>
         <br>
         <div class="input-container">
           <p>bericht*</p>
-          <textarea> </textarea>
+          <textarea name="message" required> </textarea>
         </div>
         <br>
         <div class="input-container">
-          <input type="submit" >
+          <input required type="submit">
         </div>
       </form>
       <div class="contact-information p-4">

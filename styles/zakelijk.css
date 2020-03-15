@@ -86,8 +86,8 @@ footer p {
     flex-direction: column;
     padding-bottom: 12vh;
     padding-top: 12vh;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 8vw;
+    padding-right: 8vw;
     height: 100%;
     text-align: center;
     
