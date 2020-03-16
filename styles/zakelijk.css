@@ -21,7 +21,7 @@
     color: white;
     align-items: center;
     flex: 1;
-    font-size: calc(2vw + 5px);
+    font-size: calc(1vw + 8px);
     font-family: "Open Sans";
     font-weight: 600;
     margin-bottom: 2.5vh;
@@ -29,10 +29,10 @@
 }
 .bullet-point {
     background-color: #D35400;
-    width: calc(1.7vw + 10px);
-    height: calc(1.7vw + 10px);
+    width: calc(1vw + 10px);
+    height: calc(1vw + 10px);
     border-radius: 50%;
-    margin-right: calc(2vw);
+    margin-right: calc(3vw);
 
 }
 

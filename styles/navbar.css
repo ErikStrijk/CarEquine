@@ -4,6 +4,9 @@
 .text-gold {
     color: #AE982A !important;
 }
+.text-gold:hover {
+    color: #D35400 !important;
+}
 .text-orange {
     color: #D35400 !important;
 }
