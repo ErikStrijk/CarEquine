@@ -25,6 +25,13 @@ p {
     margin: 0;
     display: inline;
 }
+.subheader-orange {
+    color: #D35400;
+    font-size: calc(10px + 0.6vw);
+    margin-bottom: 1.5625;
+    font-family: 'Open Sans', serif;
+    font-weight: 600;
+}
 .jumbotron div{
 
     position: relative;
