@@ -21,18 +21,17 @@
     color: white;
     align-items: center;
     flex: 1;
-    font-size: calc(1vw + 8px);
-    font-family: "Open Sans";
+    font-size: calc(0.6vw + 10px);    font-family: "Open Sans";
     font-weight: 600;
     margin-bottom: 2.5vh;
 
 }
 .bullet-point {
     background-color: #D35400;
-    width: calc(1vw + 10px);
-    height: calc(1vw + 10px);
+    width: calc(0.6vw + 12px);
+    height: calc(0.6vw + 12px);
     border-radius: 50%;
-    margin-right: calc(3vw);
+    margin-right: calc(0.6vw + 10px)
 
 }
 
@@ -50,7 +49,6 @@ p {
     font-weight: 500;
     font-size: calc(8px + 0.5vw);
     color: #404040;
-    min-width: 30vw;
 }
 footer p {
     font-family: 'Open Sans', bold;
@@ -68,13 +66,21 @@ footer p {
 }
 #darkblue-section {
     display: flex;
+    justify-content: center;
     background-color: #34495E;
-    padding-bottom: 12vh;
-    padding-top: 12vh;
+    padding-bottom: 6vh;
+    padding-top: 6vh;
     padding-left: 1.7vw !important;
     padding-right: 2px !important;
     height: 100%;
-    
+    min-width: 400px;
+    min-height: 500px;
+}
+.padding {
+    padding: 2.5vh;;
+
+    padding-left: 20vw;
+    padding-right: 20vw;
 }
 #darkblue-section-text{
     color: white;
