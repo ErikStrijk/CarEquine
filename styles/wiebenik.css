@@ -9,24 +9,25 @@
 }
 .subheader-orange {
     color: #D35400;
-    font-size: 2.5vh;
+    font-size: calc(10px + 0.6vw);
     margin-bottom: 1.5625;
     font-family: 'Open Sans', serif;
     font-weight: 600;
 }
 .header-gold {
     color: #AE982A;
-    font-size: 4vh;
+    font-size: calc(14px + 0.8vw);
     font-family: 'Open Sans', bold;
     font-weight: 600;
 }
 .row {
     margin: 0 !important;
 }
+
 p {
     font-family: 'Lato', bold;
     font-weight: 500;
-    font-size: 2vh;
+    font-size: calc(px + 0.5vw);
     color: #404040;
     min-width: 30vw;
 }
@@ -51,9 +52,9 @@ footer p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 12vh;
-    padding-left: 9vw;
-    padding-right: 9vw;
+    padding: 5vh;
+    padding-left: 20vw;
+    padding-right: 20vw;
     height: 100%;
     text-align: center;
     

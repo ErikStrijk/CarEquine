@@ -18,15 +18,15 @@
     display: flex;
     color: white;
     align-items: center;
-    font-size: calc(12px + 0.85vw);
+    font-size: calc(1vw + 8px);
     font-family: "Open Sans";
     font-weight: 600;
     margin-bottom: 2.5vh;
 }
 .bullet-point {
     background-color: #D35400;
-    width: calc(15px + 1.7vw);
-    height: calc(14px + 1.7vw);
+    width: calc(1vw + 10px);
+    height: calc(1vw + 10px);
     border-radius: 100%;
     margin-right: calc(8px + 0.8vw);
 
@@ -43,7 +43,7 @@
 p {
     font-family: 'Lato', bold;
     font-weight: 500;
-    font-size: 2vh;
+    font-size: calc(8px + 0.5vw);
     color: #404040;
     min-width: 30vw;
 }
