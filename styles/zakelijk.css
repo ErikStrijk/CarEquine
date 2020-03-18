@@ -61,7 +61,7 @@ footer p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 500px;
+    min-width: 400px;
     min-height: 500px;
 }
 #darkblue-section {
@@ -73,9 +73,8 @@ footer p {
     padding-left: 1.7vw !important;
     padding-right: 2px !important;
     height: 100%;
-    width: 50vw;
-    min-width: 50vw;
-    max-width: 50vw;
+    min-width: 400px;
+    min-height: 500px;
 }
 .padding {
     padding: 2.5vh;;
@@ -85,7 +84,7 @@ footer p {
 }
 #darkblue-section-text{
     color: white;
-    flex-basis: 50%d;
+    
     background-color: #34495E;
     display: flex;
     justify-content: center;
@@ -108,7 +107,7 @@ img {
     object-position: center;;
 }
 @media (max-width:1326px){
-    .col {
+    .col-md-4 {
         flex-basis: 100%;
         min-width: 100vw;
         min-height: 70vh;
