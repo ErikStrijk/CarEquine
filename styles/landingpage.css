@@ -20,6 +20,21 @@ p {
     display:block;
     height: 10vw;
 }
+#darkblue-section-text{
+    color: white;
+    
+    background-color: #34495E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5vh;;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    height: 100%;
+    text-align: center;
+    
+}
 #check {
     width: calc(10px + 3vw);
     margin: 0;
