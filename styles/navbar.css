@@ -16,21 +16,7 @@
 .navbar {
     font-family: 'Open Sans', bold;
     font-weight: 900;
-}
-@media screen and (min-width: 1367px) {
-    .navbar {
-        font-size: 2vw;
-    }
-}
-@media screen and (max-width: 1366px) {
-.navbar {
-    font-size: 3vw;
-}
-}
-@media screen and (max-width: 600px) {
-    .navbar {
-        font-size: 4vw;
-    }
+    font-size: calc(12px + 0.8vw);
 }
 body { 
     padding-top: 116px; 
