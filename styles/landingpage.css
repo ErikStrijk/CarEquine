@@ -46,7 +46,7 @@ html {
 }
 .subheader-orange {
     color: #D35400;
-    font-size: calc(10px + 0.6vw);
+    font-size: calc(14px + 0.7vw);
     margin-bottom: 1.5625;
     font-family: 'Open Sans', serif;
     font-weight: 600;
@@ -115,8 +115,5 @@ html {
     #header-gold {
         font-size: 4vh;
     }
-    .subheader-gold {
-        font-size: 2.5vh;
-    
-    }
+
 }
