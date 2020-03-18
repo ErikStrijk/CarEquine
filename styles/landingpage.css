@@ -35,6 +35,10 @@ p {
     text-align: center;
     
 }
+html {
+    width: 100%;
+    max-width: 100vw;
+}
 #check {
     width: calc(10px + 3vw);
     margin: 0;
@@ -78,6 +82,7 @@ p {
     height: 14vh;
 }
 .page-footer {
+    width: 100vw;
     display: flex !important;
     height: 10vh !important;
     color: white;
@@ -95,7 +100,6 @@ p {
 }
 @media screen and (max-height: 1366px) {
     .jumbotron img{
-        display:block;
         height: 20vh;
     }
 }
